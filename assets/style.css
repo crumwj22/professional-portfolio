@@ -13,7 +13,7 @@
     padding: 20px;
     text-align: left;
     background: #13293d;
-    color: white;
+    color: lightgray;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -21,20 +21,30 @@
 
   }
 
+  h2 {
+    width: 30%
+  }
+
   section h2 {
     text-align: right;
-    padding: 15px;
+    padding: 5px;
     flex-basis: 200px;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
     border-right-style: solid;
     color: #13293d;
   }
 
   section p {
-     width: 70%;
+     width: 75%;     
+
   }
 
+  section a {
+    justify-content: space-between;
+  }
+
+ 
   nav {
     display: flex;
     background-color:#13293d;
@@ -43,9 +53,9 @@
   }
   
   nav p {
-    color: white;  
+    color: lightgray;  
     padding: 14px 20px;
-    text-decoration: none;
+    text-decoration: white;
     justify-content: center;
    }
   
@@ -57,7 +67,7 @@
     
   section {
     display: flex;  
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     flex-direction: row;
     justify-content: space-between;
@@ -65,42 +75,46 @@
     border-width: 1px;
 
   }
-  
+
+  div {
+    justify-content: flex-end;
+  }
+   
   footer {
     padding: 20px;
     text-align: center;
     background: #13293d;
     color: #fff;
+    justify-content: center;
   }
   
-  /* Image Placeholders */
   img {
     background-color: #13293d;
-    width: 30%;
-    padding: 5px;
+    padding: 3px;
     height: 300px;
-    display: inline;
+    align-items: center;
+    justify-content: space-between;
+
   }
+
+   
   
-  /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict */
-  
-  /* Tablets - header changes color */
-  @media screen and (max-width: 992px) {
+   @media screen and (max-width: 992px) {
     header {
       background: #13293d;
     }
   }
   
-  /* Large smartphones - navbar changes color */
+  /* Large smartphones */
   @media screen and (max-width: 768px) {
     nav {
       background-color: #13293d;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
+  /* Small smartphones */
   @media screen and (max-width: 576px) {
-    .sample-img {
+    img {
       background-color: #13293d;
     }
   }
