@@ -7,6 +7,12 @@
     margin: 0;
     border: 5px;
   }
+
+  /* Targets a tag elements and removes link style  */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
   
   header {
     display: flex;
@@ -21,24 +27,39 @@
 
   }
 
-  h2 {
-    width: 30%
+
+  /* Size images of about section */
+
+  section img:nth-child(even) {
+    width: 40%;
+  }
+
+  section img:nth-child(odd) {
+    width: 25%;
+
   }
 
   section h2 {
     text-align: right;
-    padding: 5px;
+    padding: 10px;
     flex-basis: 200px;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     border-right-style: solid;
     color: #13293d;
   }
 
-  section p {
-     width: 75%;     
 
+  #about-me p {
+    width: 75%;
   }
+
+  #contact-me p a {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: left;
+  }
+
 
   section a {
     justify-content: space-between;
@@ -76,6 +97,23 @@
 
   }
 
+  #work h2 {
+    padding-left: 125px;
+  }
+
+  #work p {
+    padding: 50px;
+  }
+
+  
+  #work p a img {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 400px;
+    height: 400px;
+  }
+
   div {
     justify-content: flex-end;
   }
@@ -97,25 +135,61 @@
 
   }
 
-   
+  #resume {
+    justify-content: flex-start !important;
+  }
   
+  #resume div {
+    margin-left: 20%;
+  }
+   
+  /* Desktop */
    @media screen and (max-width: 992px) {
     header {
-      background: #13293d;
+      height: fit-content;
     }
+
   }
   
   /* Large smartphones */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #13293d;
+  @media screen and (max-width: 775px) {
+    #selfImages {
+      display: block;
     }
+
+    #selfImages img {
+      width: 80%;
+      height: fit-content;
+    }
+
+    #work h2 {
+      padding-left: 40px;
+    }
+
+    #work img {
+      width: 80%;
+      height: fit-content;
+    }
+
+    #contact-me p {
+      height: fit-content;
+      padding: 20px;
+    }
+
+    #about-me h2 {
+      padding-left: 0px;
+    }
+
+    #about-me p {
+      width: 80%;
+      padding: 40px;
+    }
+
   }
   
   /* Small smartphones */
   @media screen and (max-width: 576px) {
-    img {
-      background-color: #13293d;
-    }
+    
+
   }
   
