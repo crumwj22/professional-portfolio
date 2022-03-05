@@ -20,7 +20,7 @@ then the UI scrolls to a section with titled images of the developer's applicati
 7. Resize the page or view the site on various screen devices.
 8. Presented with a responsive layout that adapts to my viewport. 
 
-<a href="https://github.com/crumwj22">Twitter</a>
+<a href="file:///Users/jessecrumley/Desktop/school_work/homework/professional-portfolio/index.html">Professional Portfolio</a>
 
 **need to add link to live URL and screenshot**
 
