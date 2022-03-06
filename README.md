@@ -1,6 +1,6 @@
 # 02 Advanced CSS: Portfolio
 
-This weeks homework assignment is to create a profesional portfolio to showcase my my skills and talents to employers. 
+This weeks homework assignment is to create a professional portfolio to showcase my my skills and talents to employers. 
 
 
 ## User Story
