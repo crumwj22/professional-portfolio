@@ -57,7 +57,6 @@
   }
   
   /* Size images of about section */
-
   section img:nth-child(even) {
     width: 40%;
   }
@@ -68,7 +67,7 @@
 
   section {
     display: flex;  
-    background-color: rgb(235, 228, 228);
+    background-color: rgba(235, 228, 228, 0.637);
     padding: 20px;
     flex-direction: row;
     justify-content: space-between;
@@ -98,14 +97,16 @@
     padding: 50px;
   }
 
-  #main-pic {
-    flex-grow: 2;
+  /* Horiseon pic*/
+  #main-pic > img { 
+    height: 625px !important;
+    width: 604px !important; 
+    padding: 3px;
     display: flex;
-    flex-flow: row wrap;
-    width: 600px !important;
-    height: 400px !important;
+    justify-content: space-between;
   }
 
+  /* NFT project pics */
   #work p a img {
     flex-direction: row;
     justify-content: space-between;
@@ -113,19 +114,24 @@
     width: 300px;
     height: 300px;
     flex-grow: 1;
+    margin-bottom: 10px;
   }
 
-  #contact-me p {
+  /* contact me links */  
+  #contact-me > p {
     font-weight: bold;
     text-decoration: underline;
     color: blue;
     justify-content: flex-start !important;
+    text-align: center;
+    margin: auto;
   }
 
   div {
     justify-content: flex-end;
   }
 
+  /* linkedin position */
   #resume {
     justify-content: flex-start !important;
   }
@@ -154,7 +160,7 @@
   }
   
   /* Large smartphones */
-  @media screen and (max-width: 775px) {
+  @media screen and (max-width: 811px) {
     #selfImages {
       display: block;
     }
@@ -162,20 +168,6 @@
     #selfImages img {
       width: 80%;
       height: fit-content;
-    }
-
-    #work h2 {
-      padding-left: 40px;
-    }
-
-    #work img {
-      width: 80%;
-      height: fit-content;
-    }
-
-    #contact-me p {
-      height: fit-content;
-      padding: 20px;
     }
 
     #about-me h2 {
@@ -186,11 +178,29 @@
       width: 80%;
       padding: 40px;
     }
-    
+
+    #work h2 {
+      padding-left: 40px;
     }
-    #main-pic {
-      width: 300px;
-      height: 300px;
-  }
+
+    #main-pic > img { 
+      height: 300px !important;
+      width: 300px !important; 
+    }
+
+    #work img {
+      width: 80%;
+      height: fit-content;
+    }
+
+    #contact-me > p {
+      height: fit-content;
+      padding: 20px;
+    }
+
+      
+    }
+    
+  
   
   
