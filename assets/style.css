@@ -17,7 +17,7 @@
 
   header {
     display: flex;
-    padding: 20px;
+    padding: 40px;
     text-align: left;
     background: none;
     color: lightgray;
@@ -25,18 +25,41 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgb(6, 6, 90), grey);
+    background-color: rgb(81, 94, 102);
+  }
+
+  #about-me {
+    color: rgb(180, 180, 46)
+  }
+
+  #contact-me {
+    color: rgb(180, 180, 46)
+  }
+
+  #about-me #about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 238, 216)
+       
+  }
+
+  h1 {
+    padding: 20px;
   }
 
   img {
-    background-color: #13293d;
-    padding: 3px;
-    height: 300px;
+    padding: 0px;
+    height: 190px;
     align-items: center;
     justify-content: space-between;
+    
   }
 
-  
+  #self-photo {
+    border-radius: 50% !important;
+  }
+
   nav {
     display: flex;
     background-color: none;
@@ -67,12 +90,12 @@
 
   section {
     display: flex;  
-    background-color: rgba(235, 228, 228, 0.637);
+    background-color: rgb(46, 51, 71);
     padding: 20px;
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    border-width: 1px;
+    border-width: .5px;
   }
   
   section h2 {
@@ -82,11 +105,12 @@
     flex-direction: column;
     width: 30%;
     border-right-style: solid;
-    color: #13293d;
+    color: rgb(227, 222, 222);
   }
 
   #about-me p {
-    width: 75%;
+    width: 65%;
+    color: #f3f5f6;
   }
 
   #work h2 {
@@ -99,8 +123,8 @@
 
   /* Horiseon pic*/
   #main-pic > img { 
-    height: 625px !important;
-    width: 604px !important; 
+    height: 750px !important;
+    width: 815px !important; 
     padding: 3px;
     display: flex;
     justify-content: space-between;
@@ -111,8 +135,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    width: 300px;
-    height: 300px;
+    width: 410px;
+    height: 390px;
     flex-grow: 1;
     margin-bottom: 10px;
   }
@@ -121,7 +145,7 @@
   #contact-me > p {
     font-weight: bold;
     text-decoration: underline;
-    color: blue;
+    color: rgb(180, 180, 46);
     justify-content: flex-start !important;
     text-align: center;
     margin: auto;
@@ -146,21 +170,23 @@
     background: #13293d;
     color: #fff;
     justify-content: center;
-    background-image: linear-gradient(rgb(6, 6, 90), grey);
+    background-color: rgb(81, 94, 102);
   }
-
+  footer h2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
    
   /* Desktop */
    @media screen and (max-width: 992px) {
     header {
       height: fit-content;
-  }
-
-  }
-  
+    }
+   }
   /* Large smartphones */
-  @media screen and (max-width: 811px) {
+  @media screen and (max-width: 800px) {
     #selfImages {
       display: block;
     }
@@ -168,6 +194,16 @@
     #selfImages img {
       width: 80%;
       height: fit-content;
+    }
+
+    #work p a img {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      width: 410px;
+      height: 390px;
+      flex-grow: 1;
+      margin-bottom: 10px;
     }
 
     #about-me h2 {
@@ -199,7 +235,7 @@
     }
 
       
-    }
+  }
     
   
   
