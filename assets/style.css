@@ -28,20 +28,18 @@
     background-color: rgb(81, 94, 102);
   }
 
-  #about-me {
+  #about-me-two {
     color: rgb(180, 180, 46)
   }
 
-  #contact-me {
+  #contact-me-two {
     color: rgb(180, 180, 46)
   }
 
-  #about-me #about-text {
+  #about-me p {
+    width: 65%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: rgb(238, 238, 216)
-       
   }
 
   h1 {
@@ -108,11 +106,6 @@
     color: rgb(227, 222, 222);
   }
 
-  #about-me p {
-    width: 65%;
-    color: #f3f5f6;
-  }
-
   #work h2 {
     padding-left: 125px;
   }
@@ -156,8 +149,18 @@
   }
 
   /* linkedin position */
+  #resume p {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 238, 216);
+    
+  }
+
   #resume {
-    justify-content: flex-start !important;
+    padding-left: 105px;
   }
   
   #resume div {
