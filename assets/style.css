@@ -43,6 +43,7 @@
   #about-me p {
     width: 79%;
     padding-right: 100px;
+    padding-left: 15px;
     color: rgb(238, 238, 216)
   }
 
@@ -60,6 +61,8 @@
 
   #self-photo {
     border-radius: 50% !important;
+    border-style: solid;
+    border-color: rgb(180, 180, 46)
   }
 
   nav {
@@ -194,15 +197,7 @@
    }
   /* Large smartphones */
   @media screen and (max-width: 800px) {
-    #selfImages {
-      display: block;
-    }
-
-    #selfImages img {
-      width: 80%;
-      height: fit-content;
-    }
-
+    
     #work p a img {
       flex-direction: row;
       justify-content: space-between;
