@@ -36,9 +36,13 @@
     color: rgb(180, 180, 46)
   }
 
+  #LinkedIn-two {
+    color: rgb(180, 180, 46)
+  }
+
   #about-me p {
-    width: 65%;
-    display: flex;
+    width: 79%;
+    padding-right: 100px;
     color: rgb(238, 238, 216)
   }
 
