@@ -22,4 +22,4 @@ then the UI scrolls to a section with titled images of the developer's applicati
 
 <a href=https://crumwj22.github.io/professional-portfolio>Professional Portfolio</a>
 
-<img src="./images/portfolio-img.png" alt=""/>
+<img src="./images/professionalportfolioimg.png" alt=""/>
