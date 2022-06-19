@@ -121,7 +121,7 @@
     padding: 50px;
   }
 
-  /* Horiseon pic*/
+  /* project pic */
   #main-pic > img { 
     height: 750px !important;
     width: 815px !important; 
@@ -129,7 +129,7 @@
     justify-content: space-between;
   }
 
-  /* NFT project pics */
+  /* homework pics */
   #work p a img {
     flex-direction: row;
     justify-content: space-between;
@@ -155,11 +155,10 @@
   }
 
   .projectTitle {
-    position: absolute;
-    font-size: 26px;
-    background-color: white;
-    border-radius: 15px;
+    position:relative;
+    font-size: 22px;
     padding: 10px;
+    color: rgb(180, 180, 46);
   }
 
   /* linkedin position */
