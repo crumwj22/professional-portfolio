@@ -447,6 +447,28 @@ legend + * {
   direction: ltr;
 }
 */
+
+/* project pic */
+#main-pic > img { 
+    height: 750px !important;
+    width: 815px !important; 
+    padding: 3px;
+    justify-content: space-between;
+    box-shadow: 10px 10px 8px #888888;
+  }
+
+  /* homework pics */
+  #work p a img {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 410px;
+    height: 390px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 8px #888888;
+  }
+
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -11363,7 +11385,7 @@ p.lead {
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
-    max-height: 10rem;
+    /* max-height: 10rem; */
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
