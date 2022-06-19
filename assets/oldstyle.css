@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+  }
+
+   
+  body {
+    font-family: Arial;
+    margin: 0;
+    border: 5px;
+  }
+
+  /* Targets a tag elements and removes link style  */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  header {
+    display: flex;
+    padding: 40px;
+    text-align: left;
+    background: none;
+    color: lightgray;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(81, 94, 102);
+  }
+
+  #about-me-two {
+    color: rgb(180, 180, 46)
+  }
+
+  #contact-me-two {
+    color: rgb(180, 180, 46)
+  }
+
+  #LinkedIn-two {
+    color: rgb(180, 180, 46)
+  }
+
+  #about-me p {
+    width: 79%;
+    padding-right: 100px;
+    padding-left: 15px;
+    color: rgb(238, 238, 216)
+  }
+
+  h1 {
+    padding: 20px;
+  }
+
+  img {
+    padding: 0px;
+    height: 190px;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+  #self-photo {
+    border-radius: 50% !important;
+    border-style: solid;
+    border-color: rgb(180, 180, 46)
+  }
+
+  nav {
+    display: flex;
+    background-color: none;
+    justify-content: right;
+    flex-direction: row;
+  }
+  
+  nav p {
+    color: lightgray;  
+    padding: 14px 20px;
+    text-decoration: white;
+    justify-content: center;
+  }
+  
+  main {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Size images of about section */
+  section img:nth-child(even) {
+    width: 40%;
+  }
+
+  section img:nth-child(odd) {
+    width: 25%;
+  }
+
+  section {
+    display: flex;  
+    background-color: rgb(46, 51, 71);
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    border-width: .5px;
+  }
+  
+  section h2 {
+    text-align: right;
+    padding: 10px;
+    flex-basis: 200px;
+    flex-direction: column;
+    width: 30%;
+    border-right-style: solid;
+    color: rgb(227, 222, 222);
+  }
+
+  #work h2 {
+    padding-left: 125px;
+  }
+
+  #work p {
+    padding: 50px;
+  }
+
+  /* project pic */
+  #main-pic > img { 
+    height: 750px !important;
+    width: 815px !important; 
+    padding: 3px;
+    justify-content: space-between;
+  }
+
+  /* homework pics */
+  #work p a img {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 410px;
+    height: 390px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+  }
+
+  /* contact me links */  
+  #contact-me > p {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(180, 180, 46);
+    justify-content: flex-start !important;
+    text-align: center;
+    margin: auto;
+  }
+
+  div {
+    justify-content: flex-end;
+  }
+
+  .projectTitle {
+    position:relative;
+    font-size: 22px;
+    padding: 10px;
+    color: rgb(180, 180, 46);
+  }
+
+  /* linkedin position */
+  #resume p {
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 238, 216);
+    
+  }
+
+  #resume {
+    padding-left: 105px;
+  }
+  
+  #resume div {
+    margin-left: 20%;
+  }
+   
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    justify-content: center;
+    background-color: rgb(81, 94, 102);
+  }
+  footer h2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   
+  /* Desktop */
+   @media screen and (max-width: 1100px) {
+    header {
+      height: fit-content;
+    }
+
+    #main-pic > img { 
+      height: 390px !important;
+      width: 410px !important; 
+    }
+   }
+  /* Large smartphones */
+  @media screen and (max-width: 800px) {
+    
+    #work p a img {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+      width: 410px;
+      height: 390px;
+      flex-grow: 1;
+      margin-bottom: 10px;
+    }
+
+    #about-me h2 {
+      padding-left: 0px;
+    }
+
+    #about-me p {
+      width: 80%;
+      padding: 40px;
+    }
+
+    #work h2 {
+      padding-left: 40px;
+    }
+
+    #work img {
+      width: 80%;
+      height: fit-content;
+    }
+
+    #contact-me > p {
+      height: fit-content;
+      padding: 20px;
+    }
+
+      
+  }
+    
+  
+  
+  
